@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "filename" : "bj_Starry.png",
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F6BD347305FABFB00519708 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6BD346305FABFB00519708 /* Alamofire */; };
+		9FF65EC23079D676009F7D16 /* SmartCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 9FF65EC13079D676009F7D16 /* SmartCodable */; };
+		9FFE721D305FA3D6002020BC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9FFE721C305FA3D6002020BC /* Kingfisher */; };
+		9FFE7231305FA4AD002020BC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9FFE7230305FA4AD002020BC /* SnapKit */; };
+		9FFE723C305FA5C8002020BC /* JXPhotoBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 9FFE723B305FA5C8002020BC /* JXPhotoBrowser */; };
+		9FFE723F305FA5DF002020BC /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 9FFE723E305FA5DF002020BC /* SQLite */; };
+		9FFE7257305FA91E002020BC /* Down in Frameworks */ = {isa = PBXBuildFile; productRef = 9FFE7256305FA91E002020BC /* Down */; };
+		AA0000000000000000000072 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = AA0000000000000000000062 /* SideMenu */; };
+		AA0000000000000000000093 /* StarryKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = AA0000000000000000000091 /* StarryKitCore */; };
+		AA0000000000000000000094 /* AICore in Frameworks */ = {isa = PBXBuildFile; productRef = AA0000000000000000000092 /* AICore */; };
+		AA0000000000000000000102 /* StarryKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = AA0000000000000000000100 /* StarryKitCore */; };
+		AA0000000000000000000103 /* AICore in Frameworks */ = {isa = PBXBuildFile; productRef = AA0000000000000000000101 /* AICore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA0000000000000000000023 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9FF64B43305FFF27009F7D16 /* Aster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000011 /* Aster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA0000000000000000000031 /* Exceptions for "Aster" folder in "Aster" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA0000000000000000000010 /* Aster */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9FF64B44305FFF27009F7D16 /* AsterMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AsterMac;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000030 /* Aster */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA0000000000000000000031 /* Exceptions for "Aster" folder in "Aster" target */,
+			);
+			path = Aster;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FF64B40305FFF27009F7D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000102 /* StarryKitCore in Frameworks */,
+				AA0000000000000000000103 /* AICore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000093 /* StarryKitCore in Frameworks */,
+				AA0000000000000000000094 /* AICore in Frameworks */,
+				AA0000000000000000000072 /* SideMenu in Frameworks */,
+				9FFE7231305FA4AD002020BC /* SnapKit in Frameworks */,
+				9FFE723F305FA5DF002020BC /* SQLite in Frameworks */,
+				9FF65EC23079D676009F7D16 /* SmartCodable in Frameworks */,
+				9F6BD347305FABFB00519708 /* Alamofire in Frameworks */,
+				9FFE7257305FA91E002020BC /* Down in Frameworks */,
+				9FFE723C305FA5C8002020BC /* JXPhotoBrowser in Frameworks */,
+				9FFE721D305FA3D6002020BC /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000030 /* Aster */,
+				9FF64B44305FFF27009F7D16 /* AsterMac */,
+				AA0000000000000000000004 /* Frameworks */,
+				AA0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000011 /* Aster.app */,
+				9FF64B43305FFF27009F7D16 /* Aster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FF64B42305FFF27009F7D16 /* AsterMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF64B4B305FFF29009F7D16 /* Build configuration list for PBXNativeTarget "AsterMac" */;
+			buildPhases = (
+				9FF64B3F305FFF27009F7D16 /* Sources */,
+				9FF64B40305FFF27009F7D16 /* Frameworks */,
+				9FF64B41305FFF27009F7D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9FF64B44305FFF27009F7D16 /* AsterMac */,
+			);
+			name = AsterMac;
+			packageProductDependencies = (
+				AA0000000000000000000100 /* StarryKitCore */,
+				AA0000000000000000000101 /* AICore */,
+			);
+			productName = AsterMac;
+			productReference = 9FF64B43305FFF27009F7D16 /* Aster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA0000000000000000000010 /* Aster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000041 /* Build configuration list for PBXNativeTarget "Aster" */;
+			buildPhases = (
+				AA0000000000000000000020 /* Sources */,
+				AA0000000000000000000021 /* Frameworks */,
+				AA0000000000000000000022 /* Resources */,
+				AA0000000000000000000023 /* Embed Frameworks */,
+				AA0000000000000000000104 /* Sign Simulator Product */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA0000000000000000000030 /* Aster */,
+			);
+			name = Aster;
+			packageProductDependencies = (
+				AA0000000000000000000062 /* SideMenu */,
+				9FFE721C305FA3D6002020BC /* Kingfisher */,
+				9FFE7230305FA4AD002020BC /* SnapKit */,
+				9FFE723B305FA5C8002020BC /* JXPhotoBrowser */,
+				9FFE723E305FA5DF002020BC /* SQLite */,
+				9FFE7256305FA91E002020BC /* Down */,
+				9F6BD346305FABFB00519708 /* Alamofire */,
+				AA0000000000000000000091 /* StarryKitCore */,
+				AA0000000000000000000092 /* AICore */,
+				9FF65EC13079D676009F7D16 /* SmartCodable */,
+			);
+			productName = Aster;
+			productReference = AA0000000000000000000011 /* Aster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					9FF64B42305FFF27009F7D16 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					AA0000000000000000000010 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = AA0000000000000000000040 /* Build configuration list for PBXProject "Aster" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0000000000000000000002;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AA0000000000000000000052 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				9FFE721B305FA3D6002020BC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				9FFE722F305FA4AD002020BC /* XCRemoteSwiftPackageReference "SnapKit" */,
+				9FFE723A305FA5C8002020BC /* XCRemoteSwiftPackageReference "PhotoBrowser" */,
+				9FFE723D305FA5DF002020BC /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				9FFE7255305FA91E002020BC /* XCRemoteSwiftPackageReference "Down" */,
+				9F6BD345305FABFB00519708 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AA0000000000000000000090 /* XCLocalSwiftPackageReference "AsterCore" */,
+				9FF65EC03079D676009F7D16 /* XCRemoteSwiftPackageReference "SmartCodable" */,
+				AA0000000000000000000105 /* XCRemoteSwiftPackageReference "SwiftMath" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000010 /* Aster */,
+				9FF64B42305FFF27009F7D16 /* AsterMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF64B41305FFF27009F7D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA0000000000000000000104 /* Sign Simulator Product */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Sign Simulator Product";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# ☠️ Xcode 27.0 缺陷（2026-10-17 本机实证；Xojo 官方博客 2026-09-15 同记录）：\n#    iphonesimulator 构建产物完全没签名（Mach-O 无 LC_CODE_SIGNATURE，\n#    尽管 showBuildSettings 里 CODE_SIGN_IDENTITY=- 解析正常）。\n#    iOS 27 模拟器 launchd 拒绝拉起未签名进程 ⇒ 报\n#    Simulator device failed to launch / FBSOpenApplicationServiceErrorDomain 3 /\n#    Launchd job spawn failed / LaunchdSimError 163 Security policy issue。\n# ✅ 修法 = CodeSign 之前手动 ad-hoc 签（与 Xojo workaround 同姿势）。\n# 🔴 只碰模拟器：真机/归档有正经签名链，⛔ 绝不能动（否则设备装不上）。\nif [ \"$EFFECTIVE_PLATFORM_NAME\" = \"-iphonesimulator\" ]; then\n    _app=\"$TARGET_BUILD_DIR/$WRAPPER_NAME\"\n    if [ -d \"$_app\" ]; then\n        xattr -cr \"$_app\"\n        /usr/bin/codesign --force --deep --sign - \"$_app\"\n        echo \"note: Xcode 27 simulator signing bug - ad-hoc signed $_app\"\n    fi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FF64B3F305FFF27009F7D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9FF64B4C305FFF29009F7D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NMD9GVZ69;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Aster 需要使用麦克风进行语音输入。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Aster 需要使用语音识别把你的话转成文字。";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.suzhibin.AsterMac;
+				PRODUCT_NAME = Aster;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9FF64B4D305FFF29009F7D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NMD9GVZ69;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Aster 需要使用麦克风进行语音输入。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Aster 需要使用语音识别把你的话转成文字。";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.suzhibin.AsterMac;
+				PRODUCT_NAME = Aster;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA0000000000000000000042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 44DERL27HZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 44DERL27HZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0000000000000000000044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NMD9GVZ69;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aster/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于拍照后直接把照片发给 AI 提问，比如拍一道题、拍一份说明书";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于语音输入：按住说话，把你的语音转成文字发送给 AI";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "用于把你在会话里发送或收到的图片保存回你的相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于在「+」面板里显示你最近的相册照片，方便直接点选发给 AI。不开启也不影响「相册」按钮选图";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "用于将你的语音转换为文字，方便快速输入提问内容";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.suzhibin.Aster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NMD9GVZ69;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aster/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于拍照后直接把照片发给 AI 提问，比如拍一道题、拍一份说明书";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于语音输入：按住说话，把你的语音转成文字发送给 AI";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "用于把你在会话里发送或收到的图片保存回你的相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于在「+」面板里显示你最近的相册照片，方便直接点选发给 AI。不开启也不影响「相册」按钮选图";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "用于将你的语音转换为文字，方便快速输入提问内容";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.suzhibin.Aster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FF64B4B305FFF29009F7D16 /* Build configuration list for PBXNativeTarget "AsterMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF64B4C305FFF29009F7D16 /* Debug */,
+				9FF64B4D305FFF29009F7D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000040 /* Build configuration list for PBXProject "Aster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000042 /* Debug */,
+				AA0000000000000000000043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000041 /* Build configuration list for PBXNativeTarget "Aster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000044 /* Debug */,
+				AA0000000000000000000045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AA0000000000000000000090 /* XCLocalSwiftPackageReference "AsterCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = AsterCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F6BD345305FABFB00519708 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.2;
+			};
+		};
+		9FF65EC03079D676009F7D16 /* XCRemoteSwiftPackageReference "SmartCodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/intsig171/SmartCodable.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.8;
+			};
+		};
+		9FFE721B305FA3D6002020BC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.12.0;
+			};
+		};
+		9FFE722F305FA4AD002020BC /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.7.1;
+			};
+		};
+		9FFE723A305FA5C8002020BC /* XCRemoteSwiftPackageReference "PhotoBrowser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JiongXing/PhotoBrowser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+		9FFE723D305FA5DF002020BC /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.16.0;
+			};
+		};
+		9FFE7255305FA91E002020BC /* XCRemoteSwiftPackageReference "Down" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnxnguyen/Down.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.11.0;
+			};
+		};
+		AA0000000000000000000052 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		AA0000000000000000000105 /* XCRemoteSwiftPackageReference "SwiftMath" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mgriebling/SwiftMath.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F6BD346305FABFB00519708 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F6BD345305FABFB00519708 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9FF65EC13079D676009F7D16 /* SmartCodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FF65EC03079D676009F7D16 /* XCRemoteSwiftPackageReference "SmartCodable" */;
+			productName = SmartCodable;
+		};
+		9FFE721C305FA3D6002020BC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FFE721B305FA3D6002020BC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		9FFE7230305FA4AD002020BC /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FFE722F305FA4AD002020BC /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		9FFE723B305FA5C8002020BC /* JXPhotoBrowser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FFE723A305FA5C8002020BC /* XCRemoteSwiftPackageReference "PhotoBrowser" */;
+			productName = JXPhotoBrowser;
+		};
+		9FFE723E305FA5DF002020BC /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FFE723D305FA5DF002020BC /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+		9FFE7256305FA91E002020BC /* Down */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FFE7255305FA91E002020BC /* XCRemoteSwiftPackageReference "Down" */;
+			productName = Down;
+		};
+		AA0000000000000000000062 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0000000000000000000052 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		AA0000000000000000000091 /* StarryKitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0000000000000000000090 /* XCLocalSwiftPackageReference "AsterCore" */;
+			productName = StarryKitCore;
+		};
+		AA0000000000000000000092 /* AICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0000000000000000000090 /* XCLocalSwiftPackageReference "AsterCore" */;
+			productName = AICore;
+		};
+		AA0000000000000000000100 /* StarryKitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0000000000000000000090 /* XCLocalSwiftPackageReference "AsterCore" */;
+			productName = StarryKitCore;
+		};
+		AA0000000000000000000101 /* AICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0000000000000000000090 /* XCLocalSwiftPackageReference "AsterCore" */;
+			productName = AICore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA0000000000000000000001 /* Project object */;
+}
